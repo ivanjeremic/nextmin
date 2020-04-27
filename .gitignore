@@ -1,3 +1,9 @@
+# exclude everything
+nextjs-projects/*
+
+# exception to the rule
+!nextjs-projects/readme.txt
+
 # Logs
 logs
 *.log
