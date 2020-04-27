@@ -1,10 +1,14 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
+import routes from '../constants/routes.json';
 
 function Tabs() {
+  const history = useHistory();
+
   return (
     <div className="tabs is-centered is-boxed">
       <ul>
-        <li className="is-active">
+        <li className="is-active" onClick={() => history.push(routes.GRAPHIQL)}>
           <a>
             <span className="icon is-small">
               <i className="fas fa-image" aria-hidden="true" />
