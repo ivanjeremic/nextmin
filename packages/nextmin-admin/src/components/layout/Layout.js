@@ -3,6 +3,7 @@ import { Grid, View, Content } from '@adobe/react-spectrum';
 import Navigation from './Navigation';
 import Logo from './logo.png';
 import PagesList from '../PagesList';
+import NextminEditor from '../NextminEditor/NextminEditor';
 
 function Layout() {
   return (
@@ -23,8 +24,8 @@ function Layout() {
         <Navigation />
       </View>
       <View gridArea='content'>
-        <Content marginX='size-225' marginY='size-225'>
-          <PagesList />
+        <Content>
+          <NextminEditor />
         </Content>
       </View>
       <View backgroundColor='magenta-600' gridArea='footer'>
