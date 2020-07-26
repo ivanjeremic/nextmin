@@ -1,0 +1,25 @@
+{
+  "name": "nextmin",
+  "version": "1.5.9",
+  "description": "nextmin",
+  "bin": {
+    "doseidon": "./bin/nextmin.js"
+  },
+  "scripts": {
+    "start": "node bin/nextmin.js"
+  },
+  "keywords": [
+    "nextjs-admin"
+  ],
+  "author": "Ivan Jeremic",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
